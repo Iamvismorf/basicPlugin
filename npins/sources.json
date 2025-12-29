@@ -1,0 +1,43 @@
+{
+  "pins": {
+    "flake-compat": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "https://git.lix.systems/lix-project/flake-compat"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "549f2762aebeff29a2e5ece7a7dc0f955281a1d1",
+      "url": null,
+      "hash": "0g4izwn5k7qpavlk3w41a92rhnp4plr928vmrhc75041vzm3vb1l"
+    },
+    "hyprland": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "hyprwm",
+        "repo": "hyprland"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "6a055fc747a5a899b97f9b4c1d1a52229a805b1e",
+      "url": "https://github.com/hyprwm/hyprland/archive/6a055fc747a5a899b97f9b4c1d1a52229a805b1e.tar.gz",
+      "hash": "09jk2hcqi6jlzy0xxvhibz58jvs25aiymgpwibiyd2769yd3wscq"
+    },
+    "nixpkgs": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nixos",
+        "repo": "nixpkgs"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "dd7baa4d38c7b959e489e3553d43ead86f6c66e0",
+      "url": "https://github.com/nixos/nixpkgs/archive/dd7baa4d38c7b959e489e3553d43ead86f6c66e0.tar.gz",
+      "hash": "0iwi37px4ii56zhyvd0kgbnfkzr68szwyym2m46yh29ilpkn5kn6"
+    }
+  },
+  "version": 5
+}
